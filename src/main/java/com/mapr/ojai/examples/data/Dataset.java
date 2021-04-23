@@ -29,7 +29,11 @@ public class Dataset {
 
     new User("user0002", 45, "Simon", "Davis",
         new Address("38 De Mattei Court", "San Jose", "CA", 95142),
-        new PhoneNumber[] {new PhoneNumber(555, 5425639), new PhoneNumber("555", "542-5656")})
+        new PhoneNumber[] {new PhoneNumber(555, 5425639), new PhoneNumber("555", "542-5656")}),
+
+    new User("", 42, "James", "Bond",
+        new Address("201 S 4th St", "San Jose", "CA", 95112),
+        new PhoneNumber[] {new PhoneNumber(555, 5432101), new PhoneNumber("555", "542-9423")})
   };
 
 }
